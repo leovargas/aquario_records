@@ -1114,7 +1114,15 @@
             </div>
         </div>
     </footer>
-
+<Script
+      src="https://assistloop.ai/assistloop-widget.js"
+      strategy="afterInteractive"
+      onLoad={() => {
+        window.AssistLoopWidget?.init({
+          agentId: process.env.NEXT_PUBLIC_ASSISTLOOP_AGENT_ID,
+        });
+      }}
+/>
     <!-- ========== JAVASCRIPT ========== -->
     <script>
         // Initialize Lucide icons
