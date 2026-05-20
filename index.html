@@ -286,6 +286,12 @@
         .yt-controls.visible { opacity: 1; }
         .yt-player-container iframe { position: absolute !important; top: 0; left: 0; width: 100% !important; height: 100% !important; }
     </style>
+
+    <!-- Vercel Speed Insights -->
+    <script type="module">
+        import { injectSpeedInsights } from './node_modules/@vercel/speed-insights/dist/index.mjs';
+        injectSpeedInsights();
+    </script>
 </head>
 <body class="font-sans antialiased bg-grid">
 

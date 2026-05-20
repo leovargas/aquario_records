@@ -1,0 +1,24 @@
+{
+  "name": "aquario-records",
+  "version": "1.0.0",
+  "description": "Leo Vargas - Gravação Multicanal Ao Vivo",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leovargas/aquario_records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leovargas/aquario_records/issues"
+  },
+  "homepage": "https://github.com/leovargas/aquario_records#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
