@@ -4,45 +4,9 @@
 <head>
   <link rel="icon" type="image/png" href="favicon.png">
 
-  <!-- SEO Geral Otimizado para Gravação Multicanal -->
-   <meta name="description" content="Estúdio profissional especializado em gravação multicanal de áudio ao vivo, mixagem e masterização de bandas. Capte a energia pura do seu show com alta fidelidade.">
-  <meta name="keywords" content="gravação multicanal ao vivo, gravação multicanal de áudio, estúdio de áudio, gravar banda ao vivo, mixagem, masterização, aquario records">
-
-  <!-- Compartilhamento em Redes Sociais (WhatsApp, Instagram, Facebook) -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aquariorecords.com.br">
-  <meta property="og:title" content="Aquário Records | Gravação Multicanal de Áudio Ao Vivo">
-  <meta property="og:description" content="Capte a energia da sua banda com gravação multicanal ao vivo profissional e infraestrutura de ponta.">
-  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPe-ZH2ZgvBpyPButmwHJBKNCh8aigGrGKvA&s">
-  <meta property="og:locale" content="pt_BR">
-
-  <!-- Dados Estruturados para o Google (SEO Local) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "RecordingStudio",
-    "name": "Aquário Records",
-    "description": "Estúdio profissional especializado em gravação multicanal de áudio ao vivo, mixagem e masterização.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPe-ZH2ZgvBpyPButmwHJBKNCh8aigGrGKvA&s",
-    "@id": "https://aquariorecords.com.br",
-    "url": "https://aquariorecords.com.br",
-    "telephone": "+55-24-98144-4357", 
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Avenida Joaquim Rolla, 2",
-      "addressLocality": "Petrópolis",
-      "addressRegion": "RJ",
-      "postalCode": "25651-072",
-      "addressCountry": "BR"
-    }
-  }
-  </script>
-
-  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquário Records | Gravação de Áudio Multicanal</title>
+    <title>Leo Vargas | Gravação Multicanal de Áudio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -334,13 +298,11 @@
         .yt-player-container iframe { position: absolute !important; top: 0; left: 0; width: 100% !important; height: 100% !important; }
     </style>
 
-
-    <script type="module">
-        import { injectSpeedInsights } from '@vercel/speed-insights';
+    <!-- PREVIEW: o import de ./node_modules/@vercel/speed-insights falha fora do build da Vercel (e não existe neste Space estático) -->
+    <!-- <script type="module">
+        import { injectSpeedInsights } from './node_modules/@vercel/speed-insights/dist/index.mjs';
         injectSpeedInsights();
-      import { SpeedInsights } from "@vercel/speed-insights/next"
-      npm i @vercel/speed-insights
-    </script>
+    </script> -->
 </head>
 <body class="font-sans antialiased bg-grid overflow-x-hidden">
 
@@ -352,7 +314,7 @@
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-blue/5 rounded-full blur-[150px]"></div>
         </div>
 
-          <div class="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-20">
+        <div class="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-20">
             <div class="absolute top-[5%] left-[3%] text-[10px] font-mono text-brand-400/60 channel-line whitespace-nowrap">CH01 ──────── CH02 ──────── CH03 ──────── CH04 ──────── CH05</div>
             <div class="absolute top-[13%] left-[5%] text-[10px] font-mono text-accent-400/60 channel-line whitespace-nowrap">CH06 ──────── CH07 ──────── CH08 ──────── CH09 ──────── CH10</div>
             <div class="absolute top-[22%] left-[7%] text-[10px] font-mono text-neon-green/60 channel-line whitespace-nowrap">CH26 ──────── CH27 ──────── CH28 ──────── CH29 ──────── CH30</div>
@@ -360,20 +322,25 @@
             <div class="absolute top-[37%] left-[11%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH36 ──────── CH37 ──────── CH38 ──── CH39 ──── CH40</div>
             <div class="absolute top-[42%] left-[13%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH36 ──────── CH37 ──────── CH38 ──── CH39 ──── CH40</div>
             <div class="absolute top-[48%] left-[15%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH41 ──────── CH42 ──────── CH43 ──── CH44 ──── CH45</div>
-            <div class="absolute top-[55%] left-[17%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH46 ──────── CH47 ──────── CH48 ──── CH49 ──── CH50</div>
-            <div class="absolute top-[63%] left-[19%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH51 ──────── CH52 ──────── CH53 ──── CH54 ──── CH55</div>
+            <div class="absolute top-[55%] left-[17%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH46 ──────── CH47 ──────── CH48 ──── CH49 ──────── CH50</div>
+            <div class="absolute top-[63%] left-[19%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH51 ──────── CH52 ──────── CH53 ──── CH54 ──────── CH55</div>
             <div class="absolute top-[70%] left-[21%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH56 ──────── CH57 ──────── CH58 ──── CH59 ──── CH60</div>
             <div class="absolute top-[77%] left-[23%] text-[10px] font-mono text-brand-300/60 channel-line whitespace-nowrap">CH61 ──────── CH62 ──────── CH63 ──── CH64 ──────── MASTER ──── DANTE ────</div>
         </div>
-        <div class="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 lg:gap-14 items-center">
+
+                <!-- ===== COLUNA DE TEXTO ===== -->
+                <div id="hero-copy" class="text-center lg:text-left">
             <!-- Badge -->
             <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span class="text-sm font-medium text-slate-300">Leo Vargas | Especialista em Gravação de Áudio Multicanal</span>
+                <span class="text-sm font-medium text-slate-300">Leo Vargas | Especialista em Gravação Multicanal Ao Vivo</span>
             </div>
 
             <!-- Main heading -->
-            <h1 class="font-display font-bold text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-tight mb-6">
+            <h1 class="font-display font-bold text-4xl sm:text-5xl md:text-7xl xl:text-8xl tracking-tight mb-6">
                 <span class="text-white">Gravação</span><br>
                 <span class="gradient-text">Multicanal</span><br>
                 <span class="text-white">Ao Vivo</span>
@@ -381,13 +348,13 @@
 
             <p class="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
                 Seu show gravado em até <span class="text-white font-semibold">64 canais separados</span>. 
-                Tracks individuais de alta fidelidade para todos os tipos de produção.
+                Tracks individuais de alta fidelidade para qualquer tipo de produção.
             </p>
 
             <!-- Hero stats row -->
             <div class="flex flex-wrap justify-center gap-6 sm:gap-10 mb-12">
                 <div class="text-center">
-                    <div class="stat-number font-display font-bold gradient-text count-up" data-target=64>0</div>
+                    <div class="stat-number font-display font-bold gradient-text count-up" data-target="64">0</div>
                     <div class="text-sm text-slate-500 uppercase tracking-wider mt-1">Canais</div>
                 </div>
                 <div class="w-px bg-white/10 hidden sm:block"></div>
@@ -414,7 +381,67 @@
                     Conexões & Serviços
                 </a>
             </div>
+                </div>
+                <!-- ===== FIM DA COLUNA DE TEXTO ===== -->
+
+                <!-- ===== VÍDEO SHORT — DESTAQUE NO TOPO ===== -->
+                <div class="relative mx-auto w-full max-w-[300px] lg:max-w-[340px] scroll-reveal">
+                    <!-- Glow de fundo -->
+                    <div class="absolute -inset-8 bg-gradient-to-tr from-brand-500/25 via-accent-500/25 to-emerald-500/25 blur-3xl rounded-full pointer-events-none"></div>
+
+                    <!-- Frame estilo celular -->
+                    <div class="relative rounded-[2rem] p-[6px] bg-gradient-to-br from-brand-500/70 via-accent-500/70 to-emerald-500/70 shadow-2xl shadow-brand-500/20">
+                        <div class="yt-player-container relative rounded-[1.65rem] overflow-hidden aspect-[9/16] bg-gray-900">
+                            <div id="yt-player-5" class="absolute inset-0"></div>
+
+                            <!-- Overlay de play -->
+                            <div class="yt-overlay absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-black/40 cursor-pointer" data-player="5">
+                                <div class="yt-play-circle w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-xl">
+                                    <i data-lucide="play" class="w-7 h-7 text-gray-900 ml-1"></i>
+                                </div>
+                                <span class="text-xs font-medium text-white/90 tracking-wide">Assista • 1 min</span>
+                            </div>
+
+                            <!-- Selos -->
+                            <div class="absolute top-4 left-4 flex items-center gap-2 z-30 pointer-events-none">
+                                <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></div>
+                                <span class="text-xs font-medium text-white">Ao Vivo</span>
+                            </div>
+                            <div class="absolute top-4 right-4 px-3 py-1 rounded-full glass text-[11px] font-mono text-brand-300 z-30 pointer-events-none">
+                                64 CH • Dante
+                            </div>
+
+                            <!-- Controles customizados -->
+                            <div class="yt-controls absolute bottom-0 left-0 right-0 p-3 flex items-center gap-3 z-20 bg-gradient-to-t from-black/80 via-black/40 to-transparent" data-controls="5">
+                                <button class="yt-toggle w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-all flex-shrink-0" data-player="5" aria-label="Play / Pause">
+                                    <i data-lucide="pause" class="w-4 h-4 text-white icon-pause"></i>
+                                    <i data-lucide="play" class="w-4 h-4 text-white icon-play hidden"></i>
+                                </button>
+                                <div class="flex-1 h-1.5 bg-white/20 rounded-full overflow-hidden cursor-pointer" data-seek="5">
+                                    <div class="h-full bg-gradient-to-r from-brand-400 to-accent-500 rounded-full transition-all duration-200" data-progress="5" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Legenda -->
+                    <div class="mt-5 flex items-center justify-center gap-2 text-center">
+                        <i data-lucide="sparkles" class="w-4 h-4 text-brand-400 flex-shrink-0"></i>
+                        <span class="text-sm text-slate-400">A captação multicanal <span class="text-white font-medium">acontecendo ao vivo</span></span>
+                    </div>
+                </div>
+                <!-- ===== FIM DO VÍDEO SHORT ===== -->
+
+            </div>
         </div>
+
+        <style>
+            /* No desktop o texto do hero alinha à esquerda (ao lado do vídeo) */
+            @media (min-width: 1024px) {
+                #hero-copy .flex-wrap { justify-content: flex-start; }
+                #hero-copy .sm\:flex-row { justify-content: flex-start; }
+            }
+        </style>
 
         <!-- Scroll indicator -->
         <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-500">
@@ -481,7 +508,7 @@
                                 <i data-lucide="cable" class="w-5 h-5 text-brand-400"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold text-white mb-1">Conexão Digital</h3>
+                                <h3 class="font-semibold text-white mb-1">Conexão Flexível</h3>
                                 <p class="text-slate-400 text-sm">Captação via Dante, USB ou Firewire — Gravamos a sua produção direto para o Logic Pro X.</p>
                             </div>
                         </div>
@@ -727,7 +754,7 @@
                             ❌ Referência
                         </div>
                     </div>
-                    <h3 class="font-display font-bold text-xl text-white mb-2">Áudio da CÃMERA</h3>
+                    <h3 class="font-display font-bold text-xl text-white mb-2">Áudio da CÂMERA</h3>
                     <p class="text-slate-400 text-sm mb-4 leading-relaxed">
                         É assim que soa a maioria dos registros. Áudio comprimido — sem definição, confuso, sem separação.
                     </p>
@@ -826,7 +853,7 @@
     <section class="relative py-20 sm:py-28 bg-dots overflow-hidden">
         <div class="max-w-6xl mx-auto px-4 sm:px-6">
             <div class="scroll-reveal text-center mb-16">
-                <span class="text-sm font-semibold text-brand-400 uppercase tracking-wider"></span>
+                <span class="text-sm font-semibold text-brand-400 uppercase tracking-wider">Vantagens</span>
                 <h2 class="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-white mt-3">
                     Por que <span class="gradient-text">Multicanal</span>?
                 </h2>
@@ -911,7 +938,7 @@
                     Escolha o Pacote Ideal
                 </h2>
                 <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-                   Da show às redes sociais — seu registro ao vivo com qualidade profissional, do jeito que a sua produção merece.
+                    Da captação à mixagem final — seu áudio com qualidade profissional, qualquer que seja o tipo de produção.
                 </p>
             </div>
 
@@ -924,7 +951,7 @@
                         <span class="text-xs font-medium text-brand-400 uppercase tracking-wider">Petrópolis</span>
                     </div>
                     <h3 class="font-display font-bold text-xl text-white mb-4">Captação Base</h3>
-                    
+
                     <div class="glow-line mb-6"></div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-3 text-sm text-slate-300">
@@ -963,7 +990,7 @@
                         <span class="text-xs font-medium text-amber-400 uppercase tracking-wider">Pacote Completo</span>
                     </div>
                     <h3 class="font-display font-bold text-xl text-white mb-4">Pacote Single</h3>
-                   
+
                     <div class="glow-line mb-6"></div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-3 text-sm text-slate-300">
@@ -990,11 +1017,10 @@
                             <i data-lucide="check" class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0"></i>
                             Setup completo incluso
                         </li>
-                    </ul>                  
+                    </ul>
                     <div class="px-4 py-3 rounded-xl bg-emerald-500/10 text-center">
                         <span class="text-sm text-emerald-300">Valor <strong class="text-white">promocional</strong></span>
-                    </div>                   
-                  
+                    </div>
                 </div>
 
                 <!-- Plan 3: Out of town -->
@@ -1004,7 +1030,7 @@
                         <span class="text-xs font-medium text-accent-400 uppercase tracking-wider">Fora de Petrópolis</span>
                     </div>
                     <h3 class="font-display font-bold text-xl text-white mb-4">Captação + Deslocamento</h3>
-                   
+
                     <div class="glow-line mb-6"></div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-3 text-sm text-slate-300">
@@ -1044,7 +1070,6 @@
                         <h3 class="font-display font-bold text-lg text-white mb-1">Pós-Produção (Opcional)</h3>
                         <p class="text-slate-400 text-sm">Edição (correção de afinação e tempo) + Mixagem profissional por faixa adicional.</p>
                     </div>
-
                 </div>
             </div>
 
@@ -1057,7 +1082,7 @@
                         <div class="h-14 rounded-xl overflow-hidden flex mb-6">
                             <div class="flex-1 bg-gradient-to-r from-brand-500 to-brand-400 flex items-center justify-center gap-2">
                                 <i data-lucide="mic" class="w-5 h-5 text-white"></i>
-                                <span class="font-bold text-white text-sm sm:text-base">Show ao Vivo</span>
+                                <span class="font-bold text-white text-sm sm:text-base">Produção</span>
                             </div>
                             <div class="w-12 bg-gradient-to-r from-brand-400 to-accent-500 flex items-center justify-center flex-shrink-0">
                                 <i data-lucide="arrow-right" class="w-5 h-5 text-white"></i>
@@ -1120,10 +1145,10 @@
                                 Você investe tempo e talento no palco — o resultado merece ser registrado com a mesma <strong class="text-white">qualidade e profissionalismo</strong>.
                             </p>
                             <p>
-                                A captação multicanal <strong class="text-white">não interfere no seu show</strong>. É um processo limpo, rápido e que entrega cada instrumento e voz em canais separados, prontos para mixagem.
+                                A captação multicanal via sinal digital <strong class="text-white">não interfere no seu show</strong>. É um processo limpo, rápido e que entrega cada instrumento e voz em canais separados, prontos para mixagem.
                             </p>
                             <p>
-                                Quer lançar um material oficial, alimentar as redes sociais com conteúdo de qualidade e guardar um registro do seu show com técnica, emoção e longevidade? <strong class="text-white">A gravação multicanal é a resposta.</strong>
+                                Quer lançar um material oficial, alimentar as redes sociais com conteúdo de qualidade e guardar um registro épico do seu show? <strong class="text-white">A gravação multicanal é a resposta.</strong>
                             </p>
                         </div>
 
@@ -1152,7 +1177,7 @@
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="text-center md:text-left">
                     <div class="font-display font-bold text-xl text-white mb-1">Leo Vargas</div>
-                    <div class="text-sm text-slate-500">Produtor Musical • Especialista em Gravação de Áudio Multicanal</div>
+                    <div class="text-sm text-slate-500">Produtor Musical • Especialista em Gravação Multicanal de Áudio</div>
                 </div>
 
                 <div class="flex items-center gap-6">
@@ -1161,11 +1186,11 @@
                         <i data-lucide="phone" class="w-4 h-4"></i>
                         +55 24 98144-4357
                     </a>
-
                 </div>
             </div>
         </div>
     </footer>
+
     <!-- ========== JAVASCRIPT ========== -->
     <script>
         // Initialize Lucide icons
@@ -1189,8 +1214,6 @@
                 const target = parseInt(counter.getAttribute('data-target'));
                 const duration = 2000;
                 const startTime = performance.now();
-                const suffix = target === 0 ? ' Zero' : '';
-                const prefix = target === 100 ? '' : '';
 
                 function update(currentTime) {
                     const elapsed = currentTime - startTime;
@@ -1271,7 +1294,8 @@
                 { id: '1', videoId: 'z2EkdaWlgJg' },
                 { id: '2', videoId: 'NZAgNw_GkfE' },
                 { id: '3', videoId: 'blwCJcYeKDE' },
-                { id: '4', videoId: 'AYJ4si2n3OE' }
+                { id: '4', videoId: 'v7iPaKpGMkI' },
+                { id: '5', videoId: 'DkdC69zKDxY' }
             ];
 
             videoConfigs.forEach(function(config) {
@@ -1286,8 +1310,7 @@
                         controls: 0,
                         showinfo: 0,
                         iv_load_policy: 3,
-                        disablekb: 1,
-                        origin: window.location.origin
+                        disablekb: 1
                     },
                     events: {
                         onReady: function(event) {
@@ -1489,15 +1512,15 @@
 
     <!-- Vercel Web Analytics -->
     <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-  <script src="https://assistloop.ai/assistloop-widget.js"></script>
-<script>
-  window.addEventListener('load', function() {
-    if (window.AssistLoopWidget) {
-      window.AssistLoopWidget.init({
-        agentId: "d6218cf6-cf54-48cd-b44f-d32b48a5efe3",
+    <script src="https://assistloop.ai/assistloop-widget.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        if (window.AssistLoopWidget) {
+          window.AssistLoopWidget.init({
+            agentId: "d6218cf6-cf54-48cd-b44f-d32b48a5efe3",
+          });
+        }
       });
-    }
-  });
-</script>
+    </script>
 </body>
 </html>
